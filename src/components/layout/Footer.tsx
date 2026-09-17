@@ -220,6 +220,19 @@ export function Footer() {
             <span className="text-sand-dark/40">Not a conventional travel agency.</span>
           </div>
         </div>
+
+        {/* Designer Credit */}
+        <div className="pt-6 text-center text-[10px] text-sand-dark/40 tracking-wide">
+          Designed by{" "}
+          <a
+            href="https://studio.zuratech.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sand-dark/60 hover:text-gold transition-colors font-medium"
+          >
+            Zura Technologies
+          </a>
+        </div>
       </div>
     </footer>
   );
