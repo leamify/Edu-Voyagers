@@ -174,7 +174,7 @@ export default function HomePage() {
         <TopographicPattern variant="dark" opacity={0.06} />
 
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 relative z-10 space-y-12">
-          <div className="max-w-3xl">
+          <div className="max-w-4xl">
             <SectionHeading
               eyebrow="Pedagogical Architecture"
               title="Not just a trip. A structured learning journey."

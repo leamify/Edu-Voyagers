@@ -26,7 +26,7 @@ export function Hero() {
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 py-20 lg:py-28">
-        <div className="max-w-3xl space-y-6">
+        <div className="max-w-4xl space-y-6">
           {/* Eyebrow / Mission Tag */}
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-xs bg-white/10 border border-white/15 backdrop-blur-xs">
             <span className="w-2 h-2 rounded-full bg-gold animate-pulse" />
@@ -47,7 +47,7 @@ export function Hero() {
           </p>
 
           {/* Supporting Copy */}
-          <p className="text-base sm:text-lg text-sand-dark/90 leading-relaxed max-w-2xl font-normal">
+          <p className="text-base sm:text-lg text-sand-dark/90 leading-relaxed max-w-3xl font-normal">
             EduVoyagers creates curriculum-aligned journeys, field experiences and outdoor learning programs that help students learn through exploration, challenge, collaboration and real-world discovery.
           </p>
 

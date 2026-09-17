@@ -49,7 +49,7 @@ export default function FAQPage() {
             className="text-sand-dark/70"
           />
 
-          <div className="max-w-3xl space-y-4">
+          <div className="max-w-4xl space-y-4">
             <span className="text-xs uppercase tracking-[0.2em] font-semibold text-gold block">
               Knowledge & Support
             </span>
