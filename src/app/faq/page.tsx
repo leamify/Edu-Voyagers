@@ -43,13 +43,13 @@ export default function FAQPage() {
       <section className="relative py-16 lg:py-24 bg-forest-dark text-sand-light overflow-hidden">
         <TopographicPattern variant="dark" opacity={0.06} />
 
-        <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 space-y-6">
+        <div className="relative z-10 max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-10 space-y-6">
           <Breadcrumbs
             items={[{ label: "Frequently Asked Questions" }]}
             className="text-sand-dark/70"
           />
 
-          <div className="max-w-4xl space-y-4">
+          <div className="max-w-5xl space-y-4">
             <span className="text-xs uppercase tracking-[0.2em] font-semibold text-gold block">
               Knowledge & Support
             </span>

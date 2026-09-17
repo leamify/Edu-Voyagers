@@ -21,13 +21,13 @@ export default function ContactPage() {
       <section className="relative py-16 lg:py-24 bg-forest-dark text-sand-light overflow-hidden">
         <TopographicPattern variant="dark" opacity={0.06} />
 
-        <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 space-y-6">
+        <div className="relative z-10 max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-10 space-y-6">
           <Breadcrumbs
             items={[{ label: "Contact Us" }]}
             className="text-sand-dark/70"
           />
 
-          <div className="max-w-4xl space-y-4">
+          <div className="max-w-5xl space-y-4">
             <span className="text-xs uppercase tracking-[0.2em] font-semibold text-gold block">
               Get In Touch
             </span>
@@ -42,7 +42,7 @@ export default function ContactPage() {
       </section>
 
       {/* Contact Info Cards */}
-      <section className="py-20 lg:py-28 max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 space-y-16">
+      <section className="py-20 lg:py-28 max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-10 space-y-16">
         {/* Main Contact Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-8">
           {/* Left: Contact Details */}

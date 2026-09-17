@@ -32,8 +32,8 @@ export function CTASection({
     >
       <TopographicPattern variant="dark" opacity={0.05} />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
-        <div className="max-w-4xl mx-auto text-center space-y-6">
+      <div className="relative z-10 max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-10">
+        <div className="max-w-5xl mx-auto text-center space-y-6">
           <span className="text-xs uppercase tracking-[0.25em] font-semibold text-gold block">
             Begin Your Partnership
           </span>

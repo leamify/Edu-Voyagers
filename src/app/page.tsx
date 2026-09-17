@@ -30,7 +30,7 @@ export default function HomePage() {
       <section className="py-20 lg:py-28 bg-canvas relative overflow-hidden">
         <TopographicPattern opacity={0.06} />
 
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 relative z-10">
+        <div className="max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-10 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
             {/* Left Image Column */}
             <div className="lg:col-span-6 relative">
@@ -115,7 +115,7 @@ export default function HomePage() {
 
       {/* SECTION 3 — FOUR EXPERIENCE PILLARS */}
       <section className="py-20 lg:py-28 bg-canvas-subtle border-y border-sand-border relative">
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
+        <div className="max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-10">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
             <SectionHeading
               eyebrow="Curriculum Strands"
@@ -173,8 +173,8 @@ export default function HomePage() {
       <section className="py-20 lg:py-28 bg-forest-dark text-sand-light relative overflow-hidden">
         <TopographicPattern variant="dark" opacity={0.06} />
 
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 relative z-10 space-y-12">
-          <div className="max-w-4xl">
+        <div className="max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-10 relative z-10 space-y-12">
+          <div className="max-w-5xl">
             <SectionHeading
               eyebrow="Pedagogical Architecture"
               title="Not just a trip. A structured learning journey."
@@ -202,7 +202,7 @@ export default function HomePage() {
 
       {/* SECTION 5 — SIGNATURE EXPERIENCES */}
       <section className="py-20 lg:py-28 bg-canvas relative">
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 space-y-12">
+        <div className="max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-10 space-y-12">
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
             <SectionHeading
               eyebrow="Signature Expeditions"
@@ -249,7 +249,7 @@ export default function HomePage() {
 
       {/* SECTION 6 — SAFETY */}
       <section className="py-20 lg:py-28 bg-canvas-subtle border-y border-sand-border relative">
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 space-y-12">
+        <div className="max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-10 space-y-12">
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
             <SectionHeading
               eyebrow="Responsibility & Care"
@@ -284,7 +284,7 @@ export default function HomePage() {
 
       {/* SECTION 7 — STUDENT OUTCOMES */}
       <section className="py-20 lg:py-28 bg-canvas relative">
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 space-y-12">
+        <div className="max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-10 space-y-12">
           <SectionHeading
             eyebrow="Lifelong Takeaways"
             title="What students take home."
@@ -329,7 +329,7 @@ export default function HomePage() {
 
       {/* SECTION 8 — FOR SCHOOLS */}
       <section className="py-20 lg:py-28 bg-canvas-subtle border-t border-sand-border relative">
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 space-y-12">
+        <div className="max-w-[1440px] mx-auto px-6 sm:px-8 lg:px-10 space-y-12">
           <SectionHeading
             eyebrow="Institutional Partnership"
             title="Designed for schools. Meaningful for students."
