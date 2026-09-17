@@ -23,7 +23,7 @@ export default function ForSchoolsPage() {
       <section className="relative py-16 lg:py-24 bg-forest-dark text-sand-light overflow-hidden">
         <TopographicPattern variant="dark" opacity={0.06} />
 
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
+        <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 space-y-6">
           <Breadcrumbs
             items={[{ label: "For Schools" }]}
             className="text-sand-dark/70"
@@ -44,7 +44,7 @@ export default function ForSchoolsPage() {
       </section>
 
       {/* Stakeholder Deep Dives */}
-      <section className="py-20 lg:py-28 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+      <section className="py-20 lg:py-28 max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 space-y-12">
         <SectionHeading
           eyebrow="Stakeholder Value"
           title="Meeting Every Stakeholder's Standard"
@@ -60,7 +60,7 @@ export default function ForSchoolsPage() {
 
       {/* Pilot Program Models */}
       <section id="pilot" className="py-20 lg:py-28 bg-canvas-subtle border-y border-sand-border relative">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 space-y-12">
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
             <SectionHeading
               eyebrow="Low-Friction Onboarding"
@@ -134,7 +134,7 @@ export default function ForSchoolsPage() {
       </section>
 
       {/* School Partnership Journey Steps */}
-      <section className="py-20 lg:py-28 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+      <section className="py-20 lg:py-28 max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 space-y-12">
         <SectionHeading
           eyebrow="Partnership Roadmap"
           title="How We Partner with Your Institution"

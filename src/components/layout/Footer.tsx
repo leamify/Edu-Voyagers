@@ -12,7 +12,7 @@ export function Footer() {
         aria-hidden="true"
       />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-12 relative z-10">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 pt-16 pb-12 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 pb-12 border-b border-white/10">
           {/* Brand Column */}
           <div className="lg:col-span-4 space-y-4">
@@ -33,17 +33,21 @@ export function Footer() {
               programs for K-12 students.
             </p>
             <div className="pt-2 text-xs text-sand-dark/70 space-y-2">
-              <div className="flex items-center gap-2.5">
-                <MapPin className="w-4 h-4 text-gold shrink-0" />
-                <span>Pan-India Learning Hubs & Expeditions</span>
+              <div className="flex items-start gap-2.5">
+                <MapPin className="w-4 h-4 text-gold shrink-0 mt-0.5" />
+                <span>5th Floor, BG-12, Terminus Building, Action Area I, Newtown, Kolkata, West Bengal</span>
               </div>
               <div className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-gold shrink-0" />
-                <span>learning@eduvoyagers.in</span>
+                <a href="mailto:contact@eduvoyagers.com" className="hover:text-sand-light transition-colors">
+                  contact@eduvoyagers.com
+                </a>
               </div>
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-gold shrink-0" />
-                <span>+91 98765 43210</span>
+                <a href="tel:+917004518406" className="hover:text-sand-light transition-colors">
+                  +91 70045 18406
+                </a>
               </div>
             </div>
           </div>

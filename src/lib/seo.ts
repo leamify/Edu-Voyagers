@@ -13,7 +13,7 @@ export function constructMetadata({
   pathname = "",
   image = "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
 }: MetadataProps): Metadata {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://eduvoyagers.in";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://eduvoyagers.com";
   const url = `${siteUrl}${pathname}`;
   const fullTitle = `${title} | EduVoyagers`;
 

@@ -20,7 +20,7 @@ export default function ExperiencesPage() {
       <section className="relative py-16 lg:py-24 bg-forest-dark text-sand-light overflow-hidden">
         <TopographicPattern variant="dark" opacity={0.06} />
 
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
+        <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 space-y-6">
           <Breadcrumbs
             items={[{ label: "Experiences" }]}
             className="text-sand-dark/70"
@@ -41,7 +41,7 @@ export default function ExperiencesPage() {
       </section>
 
       {/* Interactive Catalog Section */}
-      <section className="py-16 lg:py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-16 lg:py-20 max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
         <ProgramFilter initialExperiences={experiencesData} />
       </section>
 

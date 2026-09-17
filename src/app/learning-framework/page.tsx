@@ -23,7 +23,7 @@ export default function LearningFrameworkPage() {
       <section className="relative py-16 lg:py-24 bg-forest-dark text-sand-light overflow-hidden">
         <TopographicPattern variant="dark" opacity={0.06} />
 
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
+        <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 space-y-6">
           <Breadcrumbs
             items={[{ label: "Learning Framework" }]}
             className="text-sand-dark/70"
@@ -45,7 +45,7 @@ export default function LearningFrameworkPage() {
 
       {/* 5-Stage Central Framework */}
       <section className="py-20 lg:py-28 bg-canvas relative">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 space-y-12">
           <SectionHeading
             eyebrow="The 5-Stage Cycle"
             title="The EduVoyagers Experiential Learning Cycle"
@@ -58,7 +58,7 @@ export default function LearningFrameworkPage() {
 
       {/* Applied Example Breakdown */}
       <section className="py-20 lg:py-24 bg-canvas-subtle border-y border-sand-border relative">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 space-y-12">
           <SectionHeading
             eyebrow="Applied Curriculum Walkthrough"
             title="How Textbook Theory Becomes Applied Mastery"
@@ -133,7 +133,7 @@ export default function LearningFrameworkPage() {
 
       {/* Beyond Academics: Character & Life Capabilities */}
       <section className="py-20 lg:py-28 bg-canvas relative">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 space-y-12">
           <SectionHeading
             eyebrow="Holistic Growth"
             title="Learning Beyond Academics"

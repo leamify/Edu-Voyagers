@@ -19,7 +19,7 @@ export default function PlanAProgramPage() {
       <section className="relative py-16 lg:py-24 bg-forest-dark text-sand-light overflow-hidden">
         <TopographicPattern variant="dark" opacity={0.06} />
 
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
+        <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 space-y-6">
           <Breadcrumbs
             items={[{ label: "Plan a Program" }]}
             className="text-sand-dark/70"
@@ -40,7 +40,7 @@ export default function PlanAProgramPage() {
       </section>
 
       {/* Main Form Container */}
-      <section className="py-16 lg:py-24 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-16 lg:py-24 max-w-5xl mx-auto px-6 sm:px-8 lg:px-10">
         <div className="space-y-12">
           {/* Trust Value Strip */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 p-5 bg-sand-light/60 rounded-xs border border-sand-border text-xs text-charcoal">

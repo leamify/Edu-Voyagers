@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { experiencesData } from "@/data/experiences";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://eduvoyagers.in";
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://eduvoyagers.com";
 
   const staticRoutes: MetadataRoute.Sitemap = [
     {

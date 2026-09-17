@@ -121,11 +121,11 @@ export function MobileNav({ isOpen, onClose, navLinks }: MobileNavProps) {
           <div className="pt-2 text-xs text-charcoal-muted space-y-1.5">
             <div className="flex items-center gap-2">
               <Mail className="w-3.5 h-3.5 text-forest" />
-              <span>learning@eduvoyagers.in</span>
+              <span>contact@eduvoyagers.com</span>
             </div>
             <div className="flex items-center gap-2">
               <Phone className="w-3.5 h-3.5 text-forest" />
-              <span>+91 98765 43210</span>
+              <span>+91 70045 18406</span>
             </div>
           </div>
         </div>

@@ -23,7 +23,7 @@ export default function SafetyPage() {
       <section className="relative py-16 lg:py-24 bg-forest-dark text-sand-light overflow-hidden">
         <TopographicPattern variant="dark" opacity={0.06} />
 
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
+        <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 space-y-6">
           <Breadcrumbs
             items={[{ label: "Safety Framework" }]}
             className="text-sand-dark/70"
@@ -45,7 +45,7 @@ export default function SafetyPage() {
 
       {/* Safety Matrix Strip */}
       <section className="bg-canvas-subtle border-b border-sand-border py-8">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {safetyChecklistItems.map((item, idx) => (
               <div key={idx} className="space-y-1">
@@ -62,7 +62,7 @@ export default function SafetyPage() {
       </section>
 
       {/* 4 Safety Pillars Section */}
-      <section className="py-20 lg:py-28 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+      <section className="py-20 lg:py-28 max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 space-y-12">
         <SectionHeading
           eyebrow="Core Framework"
           title="Our Four Safety Pillars"
@@ -78,7 +78,7 @@ export default function SafetyPage() {
 
       {/* Visual Emergency Escalation & Protocol Matrix */}
       <section className="py-20 lg:py-24 bg-canvas-subtle border-y border-sand-border relative">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 space-y-12">
           <SectionHeading
             eyebrow="Response Protocol"
             title="Emergency Escalation Architecture"

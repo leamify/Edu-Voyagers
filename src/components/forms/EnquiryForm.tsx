@@ -317,7 +317,7 @@ export function EnquiryForm() {
                 name="phone"
                 value={formData.phone}
                 onChange={handleChange}
-                placeholder="+91 98765 43210"
+                placeholder="+91 70045 18406"
                 className={`w-full px-3.5 py-2.5 bg-canvas border rounded-xs text-sm text-charcoal placeholder:text-charcoal-light focus:outline-hidden focus:ring-1 transition-all ${
                   errors.phone
                     ? "border-red-500 focus:border-red-500 focus:ring-red-500"

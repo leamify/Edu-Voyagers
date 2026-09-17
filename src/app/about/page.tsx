@@ -22,7 +22,7 @@ export default function AboutPage() {
       <section className="relative py-16 lg:py-24 bg-forest-dark text-sand-light overflow-hidden">
         <TopographicPattern variant="dark" opacity={0.06} />
 
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
+        <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 space-y-6">
           <Breadcrumbs
             items={[{ label: "About Us" }]}
             className="text-sand-dark/70"
@@ -44,7 +44,7 @@ export default function AboutPage() {
 
       {/* Mission & Vision Strip */}
       <section className="py-16 lg:py-20 bg-canvas-card border-b border-sand-border">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
             {/* Mission */}
             <div className="p-8 bg-forest-subtle/50 rounded-xs border border-forest/15 space-y-4">
@@ -76,7 +76,7 @@ export default function AboutPage() {
       </section>
 
       {/* Our Story & Philosophy */}
-      <section className="py-20 lg:py-28 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
+      <section className="py-20 lg:py-28 max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 space-y-16">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           <div className="lg:col-span-6 space-y-6">
             <SectionHeading

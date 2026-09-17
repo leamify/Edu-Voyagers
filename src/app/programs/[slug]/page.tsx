@@ -69,7 +69,7 @@ export default async function ProgramDetailPage({ params }: ProgramPageProps) {
     <div className="min-h-screen bg-canvas">
       {/* Top Banner & Breadcrumbs */}
       <div className="bg-canvas-subtle border-b border-sand-border py-4">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
           <Breadcrumbs
             items={[
               { label: "Experiences", href: "/experiences" },
@@ -93,7 +93,7 @@ export default async function ProgramDetailPage({ params }: ProgramPageProps) {
           <div className="absolute inset-0 bg-linear-to-r from-forest-dark/95 via-forest-dark/80 to-forest-dark/50" />
         </div>
 
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
             {/* Left Content */}
             <div className="lg:col-span-8 space-y-6">
@@ -192,7 +192,7 @@ export default async function ProgramDetailPage({ params }: ProgramPageProps) {
       </section>
 
       {/* Main Content Layout */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 py-16 lg:py-20">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
           {/* Left Column: Deep Dive */}
           <div className="lg:col-span-8 space-y-16">

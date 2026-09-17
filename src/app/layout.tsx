@@ -3,6 +3,7 @@ import { Manrope, Inter } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
+import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -17,7 +18,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://eduvoyagers.in"),
+  metadataBase: new URL("https://eduvoyagers.com"),
   title: {
     default: "EduVoyagers | Experiential Learning & Educational Journeys",
     template: "%s | EduVoyagers",
@@ -38,7 +39,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://eduvoyagers.in",
+    url: "https://eduvoyagers.com",
     siteName: "EduVoyagers",
     title: "EduVoyagers | Learning Beyond the Classroom",
     description:
@@ -81,6 +82,7 @@ export default function RootLayout({
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <WhatsAppButton />
       </body>
     </html>
   );
