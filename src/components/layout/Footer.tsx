@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
-import { Compass, ArrowUpRight, Mail, Phone, MapPin, Heart } from "@/components/ui/Icons";
+import Image from "next/image";
+import { ArrowUpRight, Mail, Phone, MapPin, Heart } from "@/components/ui/Icons";
 import { Button } from "@/components/ui/Button";
 
 export function Footer() {
@@ -20,8 +21,8 @@ export function Footer() {
               href="/"
               className="flex items-center gap-2.5 group focus:outline-hidden"
             >
-              <div className="w-8 h-8 rounded-xs bg-gold flex items-center justify-center text-forest-dark">
-                <Compass className="w-5 h-5" />
+              <div className="w-9 h-9 rounded-xs overflow-hidden">
+                <Image src="/logo.png" alt="EduVoyagers Logo" width={36} height={36} className="w-full h-full object-contain" />
               </div>
               <span className="font-heading font-extrabold text-2xl tracking-wider text-sand-light">
                 EDUVOYAGERS
@@ -109,6 +110,15 @@ export function Footer() {
                   className="hover:text-sand-light transition-colors flex items-center gap-1 group"
                 >
                   <span>About EduVoyagers</span>
+                  <ArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/contact"
+                  className="hover:text-sand-light transition-colors flex items-center gap-1 group"
+                >
+                  <span>Contact Us</span>
                   <ArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
                 </Link>
               </li>

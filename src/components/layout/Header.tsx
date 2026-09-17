@@ -2,8 +2,9 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { Menu, Compass, ArrowRight } from "@/components/ui/Icons";
+import { Menu, ArrowRight } from "@/components/ui/Icons";
 import { Button } from "@/components/ui/Button";
 import { MobileNav } from "./MobileNav";
 import { cn } from "@/lib/utils";
@@ -15,6 +16,7 @@ const NAV_LINKS = [
   { href: "/for-schools", label: "For Schools" },
   { href: "/destinations", label: "Destinations" },
   { href: "/about", label: "About" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export function Header() {
@@ -48,8 +50,8 @@ export function Header() {
               className="flex items-center gap-2.5 group focus:outline-hidden"
               aria-label="EduVoyagers Home"
             >
-              <div className="w-8 h-8 rounded-xs bg-forest flex items-center justify-center text-sand-light transition-transform duration-300 group-hover:scale-105">
-                <Compass className="w-5 h-5 text-gold" />
+              <div className="w-9 h-9 rounded-xs overflow-hidden transition-transform duration-300 group-hover:scale-105">
+                <Image src="/logo.png" alt="EduVoyagers Logo" width={36} height={36} className="w-full h-full object-contain" />
               </div>
               <div className="flex flex-col">
                 <span className="font-heading font-extrabold text-xl tracking-wider text-forest leading-none">

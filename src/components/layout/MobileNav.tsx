@@ -2,8 +2,9 @@
 
 import React, { useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { X, ArrowRight, Phone, Mail, Compass } from "@/components/ui/Icons";
+import { X, ArrowRight, Phone, Mail } from "@/components/ui/Icons";
 import { Button } from "@/components/ui/Button";
 
 interface MobileNavProps {
@@ -56,8 +57,8 @@ export function MobileNav({ isOpen, onClose, navLinks }: MobileNavProps) {
               onClick={onClose}
               className="flex items-center gap-2 text-forest-dark"
             >
-              <div className="w-8 h-8 rounded-xs bg-forest flex items-center justify-center text-sand-light font-bold">
-                <Compass className="w-5 h-5 text-gold" />
+              <div className="w-9 h-9 rounded-xs overflow-hidden">
+                <Image src="/logo.png" alt="EduVoyagers Logo" width={36} height={36} className="w-full h-full object-contain" />
               </div>
               <span className="font-heading font-extrabold text-xl tracking-wider text-forest">
                 EDUVOYAGERS
