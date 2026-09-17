@@ -24,6 +24,10 @@ export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const pathname = usePathname();
 
+  const closeMobileMenu = React.useCallback(() => {
+    setIsMobileMenuOpen(false);
+  }, []);
+
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
@@ -111,9 +115,10 @@ export function Header() {
               </Button>
               <button
                 type="button"
-                onClick={() => setIsMobileMenuOpen(true)}
-                className="p-2 text-charcoal hover:text-forest focus:outline-hidden transition-colors"
-                aria-label="Open navigation menu"
+                onClick={() => setIsMobileMenuOpen((prev) => !prev)}
+                className="p-2 text-charcoal hover:text-forest focus:outline-hidden transition-colors cursor-pointer"
+                aria-label="Toggle navigation menu"
+                aria-expanded={isMobileMenuOpen}
               >
                 <Menu className="w-6 h-6" />
               </button>
@@ -125,7 +130,7 @@ export function Header() {
       {/* Mobile Menu Drawer */}
       <MobileNav
         isOpen={isMobileMenuOpen}
-        onClose={() => setIsMobileMenuOpen(false)}
+        onClose={closeMobileMenu}
         navLinks={NAV_LINKS}
       />
     </>

@@ -16,9 +16,13 @@ interface MobileNavProps {
 export function MobileNav({ isOpen, onClose, navLinks }: MobileNavProps) {
   const pathname = usePathname();
 
-  // Close on route change
+  // Close only when route actually changes
+  const prevPathname = React.useRef(pathname);
   useEffect(() => {
-    onClose();
+    if (prevPathname.current !== pathname) {
+      prevPathname.current = pathname;
+      onClose();
+    }
   }, [pathname, onClose]);
 
   // Lock body scroll when menu is open
@@ -49,7 +53,10 @@ export function MobileNav({ isOpen, onClose, navLinks }: MobileNavProps) {
       />
 
       {/* Drawer */}
-      <div className="fixed inset-y-0 right-0 z-50 w-full max-w-sm bg-canvas p-6 shadow-2xl flex flex-col justify-between border-l border-sand-border animate-in slide-in-from-right duration-300">
+      <div
+        className="fixed inset-y-0 right-0 z-50 w-full max-w-sm bg-canvas p-6 shadow-2xl flex flex-col justify-between border-l border-sand-border overflow-y-auto animate-in slide-in-from-right duration-300"
+        onClick={(e) => e.stopPropagation()}
+      >
         <div>
           <div className="flex items-center justify-between pb-6 border-b border-sand-border">
             <Link
@@ -99,14 +106,6 @@ export function MobileNav({ isOpen, onClose, navLinks }: MobileNavProps) {
                 </Link>
               );
             })}
-            <Link
-              href="/contact"
-              onClick={onClose}
-              className="flex items-center justify-between py-3 px-3 text-base font-medium text-charcoal hover:text-forest hover:bg-sand-light/60 rounded-sm"
-            >
-              <span>Contact</span>
-              <ArrowRight className="w-4 h-4 text-charcoal-light" />
-            </Link>
           </nav>
         </div>
 
