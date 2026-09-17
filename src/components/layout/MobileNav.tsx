@@ -55,14 +55,16 @@ export function MobileNav({ isOpen, onClose, navLinks }: MobileNavProps) {
             <Link
               href="/"
               onClick={onClose}
-              className="flex items-center gap-2 text-forest-dark"
+              className="flex items-center focus:outline-hidden py-1"
+              aria-label="EduVoyagers Home"
             >
-              <div className="w-9 h-9 rounded-xs overflow-hidden">
-                <Image src="/logo.png" alt="EduVoyagers Logo" width={36} height={36} className="w-full h-full object-contain" />
-              </div>
-              <span className="font-heading font-extrabold text-xl tracking-wider text-forest">
-                EDUVOYAGERS
-              </span>
+              <Image
+                src="/logo.png"
+                alt="EduVoyagers - Go Get Gather"
+                width={200}
+                height={67}
+                className="h-10 w-auto object-contain"
+              />
             </Link>
             <button
               onClick={onClose}

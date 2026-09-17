@@ -19,14 +19,18 @@ export function Footer() {
           <div className="lg:col-span-4 space-y-4">
             <Link
               href="/"
-              className="flex items-center gap-2.5 group focus:outline-hidden"
+              className="inline-block group focus:outline-hidden"
+              aria-label="EduVoyagers Home"
             >
-              <div className="w-9 h-9 rounded-xs overflow-hidden">
-                <Image src="/logo.png" alt="EduVoyagers Logo" width={36} height={36} className="w-full h-full object-contain" />
+              <div className="bg-white/95 hover:bg-white px-3.5 py-2 rounded-sm inline-flex items-center shadow-xs transition-transform duration-300 group-hover:scale-105">
+                <Image
+                  src="/logo.png"
+                  alt="EduVoyagers - Go Get Gather"
+                  width={220}
+                  height={73}
+                  className="h-10 sm:h-11 w-auto object-contain"
+                />
               </div>
-              <span className="font-heading font-extrabold text-2xl tracking-wider text-sand-light">
-                EDUVOYAGERS
-              </span>
             </Link>
             <p className="text-sm text-sand-dark/80 max-w-sm leading-relaxed">
               Experiential education company designing curriculum-aligned

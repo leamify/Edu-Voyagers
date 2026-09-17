@@ -47,20 +47,17 @@ export function Header() {
             {/* Brand Logo */}
             <Link
               href="/"
-              className="flex items-center gap-2.5 group focus:outline-hidden"
+              className="flex items-center group focus:outline-hidden py-0.5"
               aria-label="EduVoyagers Home"
             >
-              <div className="w-9 h-9 rounded-xs overflow-hidden transition-transform duration-300 group-hover:scale-105">
-                <Image src="/logo.png" alt="EduVoyagers Logo" width={36} height={36} className="w-full h-full object-contain" />
-              </div>
-              <div className="flex flex-col">
-                <span className="font-heading font-extrabold text-xl tracking-wider text-forest leading-none">
-                  EDUVOYAGERS
-                </span>
-                <span className="text-[9px] uppercase tracking-[0.22em] text-charcoal-muted font-medium mt-0.5">
-                  Learning Beyond the Classroom
-                </span>
-              </div>
+              <Image
+                src="/logo.png"
+                alt="EduVoyagers - Go Get Gather"
+                width={240}
+                height={80}
+                className="h-12 sm:h-14 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+                priority
+              />
             </Link>
 
             {/* Desktop Navigation */}
